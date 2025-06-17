@@ -170,8 +170,8 @@ const Features = () => (
                         <>
                             <p>Coming Soon.</p>
                             <ul className="list-disc ml-5 mt-3">
-                                <li>Belum ada video nya</li>
-                                <li></li>
+                                <li>NO vid</li>
+                                <li>Azmi Fadhil F 😎</li>
                                 <li></li>
                             </ul>
                         </>

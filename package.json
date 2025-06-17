@@ -1,8 +1,20 @@
 {
+  "name": "astronomyonews",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "gsap": "^3.13.0",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.6.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite-plugin-static-copy": "^3.0.2"
   }
 }
